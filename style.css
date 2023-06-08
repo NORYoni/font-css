@@ -1,0 +1,18 @@
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-align: center;
+    text-shadow: 1px 1px 1px aquamarine;
+}
+
+
+

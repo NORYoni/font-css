@@ -1,0 +1,75 @@
+Introdução font-properties
+
+A tipografia transmite uma mensagem, por exemplo, quando queremos dar uma ênfase no texto nós podemos escrever o mesmo em negrito.
+
+Nós podemos transmitir uma mensagem diferente dependendo do estilo que escrevemos o texto.
+
+Algumas das propriedades de fonts do CSS que podem nos ajudar a transmitir uma mensagem através dos textos da página são:
+
+font-family
+
+Tipo de fonte de um elemento
+Lista de fontes e ordem de prioridade
+inclui fallback font
+
+serif (com serifa)
+sans-serif (sem serifa)
+
+font-weight
+
+Peso da fonte
+Valores: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+Dependendo da família da fonte não conseguimos utilizar todos os pesos de fonte
+
+font-style
+
+É o estilo da fonte
+Valores: normal | italic | oblique
+Os valores que podem ser aplicados dependem da fonte usada
+
+font-size
+
+tamanho da fonte
+
+Fontes do sistema x Fontes da web
+
+Fontes do sistema são as fontes que estão instaladas na maquina do usuario e nem sempre o cliente vai ter instalado as fontes usadas no projeto e isso pode fazer com que os estilos de fontes não sejam aplicados corretamente, mas para resolver esses casos podemos preparar nossas fonts para web ou usar fonts da web com as tags @font-face, @import e link
+
+font variant e font stretch
+
+font variant 
+
+faz variações na apresentação da  font
+
+font stretch 
+
+alarga ou encolhe a fonte, aceita palavras chave como expanded, condensed, normal, aceita porgentagens de 50% ate 200% e essa propriedade não vai funcionar em todas as fontes
+
+letter spacing 
+
+define o espaçamento entre os caracteres
+
+word spacing 
+
+define o espaçamentoentre palavras
+
+line height 
+
+define o espaçamento entre linhas, pode ser com unidades ou sem de medidas, valores comum 1.5 e 2
+
+Text transform
+
+transformação do texto, valores podem ser: none, captilez uppercase, lowwercase, full-width e full-size-kane
+
+text decoration 
+
+aparencia decorativa de um texto
+
+text align
+
+alinhamento do texto 
+valores: start,end,right,center,justify, match-parent
+
+text-shadow 
+
+sombra aplicada a um texto
